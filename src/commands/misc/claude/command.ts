@@ -77,7 +77,7 @@ const command: Command = {
 
     try {
       const model = await client.messages.create({
-        model: 'claude-4-sonnet-20250514',
+        model: 'claude-sonnet-4-6',
         system: role,
         messages: [
           {
